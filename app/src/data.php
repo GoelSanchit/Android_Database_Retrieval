@@ -1,5 +1,5 @@
 <?php
-$objConnect = mysql_connec("Host_Site_Name","Host_Username","password");
+$objConnect = mysql_connect("Host_Site_Name","Host_Username","password");
 $objDB = mysql_select_db("database_name");
 $strSQL = "SELECT * FROM emp_info WHERE 1 ORDER BY TAG_ID DESC ";
 $objQuery = mysql_query($strSQL);
