@@ -13,7 +13,7 @@ for($i=0;$i<$intNumField;$i++)
 $arrCol[mysql_field_name($objQuery,$i)] = $obResult[$i];
 }
 array_push($resultArray,$arrCol);
- 
+
 }
  
 mysql_close($objConnect);
